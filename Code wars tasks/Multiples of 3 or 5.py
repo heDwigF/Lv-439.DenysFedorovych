@@ -1,0 +1,6 @@
+def solution(number):
+    n = 0
+    for i in range(number):
+        if i%3==0 or i%5==0:
+            n+=i
+    return n
